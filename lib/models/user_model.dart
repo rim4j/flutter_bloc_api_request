@@ -17,8 +17,8 @@ class UserModel {
     return UserModel(
       id: json["id"],
       email: json["email"],
-      firstName: json["firstName"] ?? "First Name",
-      lastName: json["lastName"] ?? "Last Name",
+      firstName: json["first_name"] ?? "First Name",
+      lastName: json["last_name"] ?? "Last Name",
       avatar: json["avatar"] ??
           "https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=826&t=st=1685205615~exp=1685206215~hmac=ab73cc738f1ec260ad5c15ce8736be15d4d57c40702e3484d0964e9b7f60fab8",
     );
